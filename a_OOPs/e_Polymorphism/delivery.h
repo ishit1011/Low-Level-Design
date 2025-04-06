@@ -24,7 +24,7 @@ class Delivery{
     }
     // virtual function : 1. define & declare 2. optional override 3. object creation of base class ✅
     // pure virtual function : 1. define only 2. must override 3. object creation of base class ❌
-    virtual void deliverPackage() = 0; // Pure Virtual Function 
+    // virtual void deliverPackage() = 0; // Pure Virtual Function 
 
     // abstract class : A class that contains at least one pure virtual function
 
