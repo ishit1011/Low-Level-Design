@@ -10,6 +10,9 @@ using namespace std;
 
 // This is a simple class definition in C++.
 // 1. The class is named "Delivery" and it contains private and public members (Access Modifiers : Private, Public, Protected).
+// Private members are accessible only within the class itself
+// Public members can be accessed from outside the class.
+// Protected members are accessible in the class and by derived classes.
 class Delivery
 {
 private:

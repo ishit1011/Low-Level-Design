@@ -5,7 +5,7 @@
 using namespace std;
 
 
-class Sales {
+class Sales { 
 private:
     int totalSales;
 

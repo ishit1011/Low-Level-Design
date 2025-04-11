@@ -42,6 +42,7 @@ int main(){
 
     cout<<"\n";
     // 1. Dynamic memory allocation using "new" operator
+    // *ptr : Pointer to object of class Delivery
     Delivery *ptr = new Delivery(2,"Ludhiana"); 
     /*  2. Pointer Stored in Stack
      Delivery obj(2,"Ludhiana"); // Static memory allocation
@@ -67,6 +68,7 @@ int main(){
         "this" is a special pointer available inside all non-static member functions of a class. 
         - implicit pointer
         - holds the memory address of the current object that is calling the function.
+        - used to identify the object that is invoking the member function.
     */
     return 0;
 }

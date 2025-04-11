@@ -11,7 +11,9 @@ private:
 
 public:
     Finance(double revenue) { companyRevenue = revenue; }
-    double getRevenue() { return companyRevenue; }
+    double getRevenue() { 
+        return companyRevenue; 
+    }
 };
 
 #endif // FINANCE_CLASS_H
